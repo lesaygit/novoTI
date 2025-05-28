@@ -1,49 +1,117 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portal de Enlaces Internos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TI_Novo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="page">
+
+<body class="page" id="top">
+  <!-- seccion header-->
   <header class="header">
     <h1 class="header__title">Ferramentas para TI Novo Atacarejo</h1>
     <p class="header__subtitle">Acesse rapidamente ferramentas internas</p>
+    <div class="header__nav">
+      <a href="#link-portal">LinksPortal</a>
+      <a href="#user-domain">UserDomain</a>
+      <a href="#" onclick="alert('Página Emails em construção, entre em contato com o TI Gonzalez Abreu e Lima.😎'); return false;">Emails</a>
+      <a href="#" onclick="alert('Página Balança em construção, entre em contato com o TI Gonzalez Abreu e Lima.😎'); return false;">Balança</a>
+    </div>
   </header>
-
-  <main class="link-list">
-    <section class="link-list__section">
-      <h2 class="link-list__section-title">Portal de Links Internos, Principais Sistemas</h2>
-      <ul class="link-list__items">
-        <li class="link-item" title="https://wfm.novoatacarejo.com/App/"><a href="https://wfm.novoatacarejo.com/App/" target="_blank" class="link-item__link">Tlantic Workforce</a></li>
-        <li class="link-item"><a href="https://clubenovo.izio.com.br/PortalCliente/login" target="_blank" class="link-item__link">Clube Novo</a></li>
-        <li class="link-item"><a href="http://10.101.108.4/eFormsColdweb/Account/Login" target="_blank" class="link-item__link">Coldweb</a></li>
-        <li class="link-item"><a href="https://novoatacarejo.dext.com.br/index.php" target="_blank" class="link-item__link">Dext</a></li>
-        <li class="link-item"><a href="https://www.portalcredsystem.com.br/credsystem-sso-idp/authentication/login?spID=500#" target="_blank" class="link-item__link">Cred System</a></li>
-        <li class="link-item"><a href="http://chamados.novoatacarejo.com/" target="_blank" class="link-item__link">Chamados</a></li>
-        <li class="link-item"><a href="http://help.novoatacarejo.com/" target="_blank" class="link-item__link">Help Chamados</a></li>
-        <li class="link-item"><a href="https://novoatacadao156260.rm.cloudtotvs.com.br/FrameHTML/web/app/RH/PortalMeuRH/#/login" target="_blank" class="link-item__link">Meu RH</a></li>
-        <li class="link-item"><a href="http://10.101.108.7/MonitorPDV/login" target="_blank" class="link-item__link">Servidor TOTVS</a></li>
-        <li class="link-item"><a href="http://novoweb.novoatacarejo.com/#/" target="_blank" class="link-item__link">Novo web</a></li>
-        <li class="link-item"><a href="https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1" target="_blank" class="link-item__link">Power BI</a></li>
-        <li class="link-item"><a href="https://www.dexboard.app/" target="_blank" class="link-item__link">Dexboard</a></li>
-        <li class="link-item"><a href="https://oauth.martins.com.br/auth/realms/sitefgwmartins/protocol/openid-connect/auth?response_type=code&client_id=sitefweb&redirect_uri=https%3A%2F%2Fvizzooexpress.martins.com.br%3A7443%2Fconciliacao%2Fsso%2Flogin&state=0c8f51d8-52b9-49ed-ade3-a70c51a3bc8b&login=true&scope=openid" target="_blank" class="link-item__link">SiTef</a></li>
-        <li class="link-item"><a href="https://painel.autentique.com.br/entrar" target="_blank" class="link-item__link">autentique</a></li>
-        <li class="link-item"><a href="https://separador.ifood.com.br/" target="_blank" class="link-item__link">iFood</a></li>
-        <li class="link-item"><a href="https://novoatacarejo.skyinone.net/user/" target="_blank" class="link-item__link">auto.Sky</a></li>
+  <!-- seccion principal main-->
+  <main class="main">
+    <!-- seccion user links portal-->
+    <section class="main__section-link" id="link-portal">
+      <h2 class="main__section-title">Portal de Links Internos, Principais Sistemas</h2>
+      <ul class="main__section__items">
+        <li class="link-item" title="https://wfm.novoatacarejo.com/App/"><a href="https://wfm.novoatacarejo.com/App/"
+            target="_blank" class="link-item__link">Tlantic Workforce</a></li>
+        <li class="link-item"><a href="https://clubenovo.izio.com.br/PortalCliente/login" target="_blank"
+            class="link-item__link">Clube Novo</a></li>
+        <li class="link-item"><a href="http://10.101.108.4/eFormsColdweb/Account/Login" target="_blank"
+            class="link-item__link">Coldweb</a></li>
+        <li class="link-item"><a href="https://novoatacarejo.dext.com.br/index.php" target="_blank"
+            class="link-item__link">Dext</a></li>
+        <li class="link-item"><a
+            href="https://www.portalcredsystem.com.br/credsystem-sso-idp/authentication/login?spID=500#" target="_blank"
+            class="link-item__link">Cred System</a></li>
+        <li class="link-item"><a href="http://chamados.novoatacarejo.com/" target="_blank"
+            class="link-item__link">Chamados</a></li>
+        <li class="link-item"><a href="http://help.novoatacarejo.com/" target="_blank" class="link-item__link">Help
+            Chamados</a></li>
+        <li class="link-item"><a
+            href="https://novoatacadao156260.rm.cloudtotvs.com.br/FrameHTML/web/app/RH/PortalMeuRH/#/login"
+            target="_blank" class="link-item__link">Meu RH</a></li>
+        <li class="link-item"><a href="http://10.101.108.7/MonitorPDV/login" target="_blank"
+            class="link-item__link">Servidor TOTVS</a></li>
+        <li class="link-item"><a href="http://novoweb.novoatacarejo.com/#/" target="_blank" class="link-item__link">Novo
+            web</a></li>
+        <li class="link-item"><a
+            href="https://app.powerbi.com/singleSignOn?ru=https%3A%2F%2Fapp.powerbi.com%2F%3FnoSignUpCheck%3D1"
+            target="_blank" class="link-item__link">Power BI</a></li>
+        <li class="link-item"><a href="https://www.dexboard.app/" target="_blank" class="link-item__link">Dexboard</a>
+        </li>
+        <li class="link-item"><a
+            href="https://oauth.martins.com.br/auth/realms/sitefgwmartins/protocol/openid-connect/auth?response_type=code&client_id=sitefweb&redirect_uri=https%3A%2F%2Fvizzooexpress.martins.com.br%3A7443%2Fconciliacao%2Fsso%2Flogin&state=0c8f51d8-52b9-49ed-ade3-a70c51a3bc8b&login=true&scope=openid"
+            target="_blank" class="link-item__link">SiTef</a></li>
+        <li class="link-item"><a href="https://painel.autentique.com.br/entrar" target="_blank"
+            class="link-item__link">autentique</a></li>
+        <li class="link-item"><a href="https://separador.ifood.com.br/" target="_blank"
+            class="link-item__link">iFood</a></li>
+        <li class="link-item"><a href="https://novoatacarejo.skyinone.net/user/" target="_blank"
+            class="link-item__link">auto.Sky</a></li>
+        <li class="link-item"><a href="https://webmail.novoatacarejo.com/" target="_blank"
+            class="link-item__link">webMail</a></li>
+        <li class="link-item"><a href="https://cloudservices.salestag.com.br:8085/" target="_blank"
+            class="link-item__link">SalesTAG-Monitor</a></li>
 
       </ul>
+      <a href="#top" class="back-to-top">Volver al inicio</a>
     </section>
 
-    <!-- Puedes añadir más secciones -->
-  </main>
-  
+    <!-- Sección Usuarios del Dominio -->
+    <section class="main__section-user-domain" id="user-domain">
+      <h2 class="user-domain__section-title">Usuários do Domínio <span class="domain-name">novo.local</span></h2>
+      <div class="user-cards-container">
+        <ul class="user-domain__user-list">
+          <li class="user-card">adm.loja00</li>
+          <li class="user-card">cartao.loja000</li>
+          <li class="user-card">cartao1.loja00</li>
+          <li class="user-card">cartaz.loja00</li>
+          <li class="user-card">cracha.loja00</li>
+          <li class="user-card">ecommerce.loja00</li>
+          <li class="user-card">financeiro.loja00</li>
+          <li class="user-card">financeiro1.loja00</li>
+          <li class="user-card">frenteloja.loja00</li>
+          <li class="user-card">gerencia.loja00</li>
+          <li class="user-card">guarita.loja00</li>
+          <li class="user-card">manutencao.loja00</li>
+          <li class="user-card">portaria.loja00</li>
+          <li class="user-card">preco.loja00</li>
+          <li class="user-card">prevencao.loja00</li>
+          <li class="user-card">rh.loja00</li>
+          <li class="user-card">rm.loja00</li>
+          <li class="user-card">rm1.loja00</li>
+          <li class="user-card">reuniao.loja00</li>
+          <li class="user-card">som.loja00</li>
+          <li class="user-card">subgerente.loja00</li>
+          <li class="user-card">vendas.loja00</li>
+          <li class="user-card">vendas1.loja00</li>
+        </ul>
+      </div>
+      <a class="back-to-top" href="#top">⬆ Volver al inicio</a>
+    </section>
 
+  </main>
+  <!-- seccion footer-->
   <footer class="footer">
     <p class="footer__text">© 2025 Novo Atacarejo</p>
   </footer>
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
