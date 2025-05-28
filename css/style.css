@@ -12,6 +12,7 @@ body.page {
   color: #333;
   line-height: 1.6;
   padding: 20px;
+ 
 }
 
 /* ======== Header ======== */
@@ -49,7 +50,7 @@ body.page {
 }
 
 /* ======== Link List ======== */
-.main__section {
+.main {
   margin-bottom: 40px;
 }
 
@@ -121,6 +122,81 @@ body.page {
     flex: 1 1 100%;
   }
 }
+
+/* sector user domain*/
+/* Estilos para sección de usuarios */
+.main__section-user-domain {
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.user-domain__section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.domain-name {
+  color: #3b82f6; /* Azul moderno */
+}
+
+.user-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.user-domain__user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.user-domain__user-list li{
+  color: #04a1df;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  color: #374151;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex: 1 1 calc(25% - 1rem);
+  min-width: 180px;
+  text-align: center;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  background-color: #f0f4ff;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+
 
 
 /* ======== Footer ======== */
