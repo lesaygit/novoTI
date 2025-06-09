@@ -177,6 +177,11 @@ body.page {
   min-width: 180px;
   text-align: center;
 }
+.user-card p{
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
 
 .user-card:hover {
   transform: translateY(-3px);
